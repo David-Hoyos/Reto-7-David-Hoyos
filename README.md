@@ -158,7 +158,7 @@ def numero_primo(numero:int) -> int:
 # Si el modulo es mayor que la mitad del numero se imprime el numero 
     if modulo >= numero/2:
       print(numero)
-# Se le resta al numero para que de esta manera se evaluen todos los numeros por debajo del numero hasta 2
+# Se le resta al numero uno para que de esta manera se evaluen todos los numeros por debajo del numero hasta 2
     numero -= 1
 x = 100
 numero_primo(x)
